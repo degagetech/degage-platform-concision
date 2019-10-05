@@ -48,7 +48,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ComboboxInfo.cs" />
-    <Compile Include="Interface\WindowsApiForDpi.cs" />
+    <Compile Include="Interface\WindowsApi-Dpi.cs" />
     <Compile Include="LastErrorCode.cs" />
     <Compile Include="NativeApiResult.cs" />
     <Compile Include="Dpi\ProcessDPIAwareness.cs" />
@@ -69,6 +69,7 @@
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
     <None Include="GetLastError.md" />
+    <None Include="package.nuspec" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -81,12 +82,6 @@
     <None Include="WindowsMessageContants.md" />
     <None Include="WindowsStyleContants.md" />
     <None Include="WindowsVersion.md" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Degage\Degage.csproj">
-      <Project>{3d9a99d6-bc15-4d3f-81ff-583508927017}</Project>
-      <Name>Degage</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

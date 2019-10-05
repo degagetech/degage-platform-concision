@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using Degage.Extension;
 namespace Degage.Native.Windows
 {
     /// <summary>
@@ -13,13 +12,11 @@ namespace Degage.Native.Windows
         /// <summary>
         /// 未知错误   
         /// </summary>
-        [EnumText("未知错误")]
         UnKnown = -1,
 
         /// <summary>
         /// 操作正常执行，当错误码为此时，可以认为操作调用成功
         /// </summary>
-        [EnumText("操作正常执行")]
         Normal = 0
     }
 }
